@@ -29,6 +29,7 @@ def get_questions():
 
     return questions
 
+
 def get_question_by_id(id):
     select_questions = f"select * from questions where id={id}"
 

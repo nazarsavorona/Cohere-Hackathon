@@ -7,8 +7,8 @@ from backend.utils import write_to_file
 co = cohere.Client(sys.argv[1])
 
 
-def classify():
-    examples, question = train_question(1)
+def classify(question_id):
+    examples, question = train_question(question_id)
 
     inputs = [
         "Global network",
@@ -37,4 +37,4 @@ def classify():
     write_to_file.write_to_file("answers_1.txt", output)
 
 
-classify()
+classify(1)
