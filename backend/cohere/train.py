@@ -15,6 +15,7 @@ def classify():
         "Something interesting",
         "Communication using the same rules",
         "Conglomeration of networks",
+        "Global system of interconnected computer networks"
     ]
 
     response = co.classify(
@@ -23,6 +24,7 @@ def classify():
         examples=examples,
     )
 
+    # TODO add question as top level of json structure, not separately
     output = json.dumps(question.__dict__, indent=4) + '\n'
     output += json.dumps(
         [response.classifications[i].__dict__ for i in range(len(response.classifications))],

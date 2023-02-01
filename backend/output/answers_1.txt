@@ -5,7 +5,7 @@
 [
     {
         "client": "<not serializable>",
-        "id": "cdca19d6-20e7-4bcb-8591-1f2ec382d1b4",
+        "id": "16f5f5a4-243b-4f2a-a7bb-fc48c3223f68",
         "input": "Global network",
         "prediction": "decent",
         "confidence": 0.9707429,
@@ -23,7 +23,7 @@
     },
     {
         "client": "<not serializable>",
-        "id": "b99ba59c-b60f-4262-a64a-e11e656e794a",
+        "id": "dda5f3e7-4380-4853-97d1-a0d134c95aba",
         "input": "Something interesting",
         "prediction": "bad",
         "confidence": 0.85351294,
@@ -41,7 +41,7 @@
     },
     {
         "client": "<not serializable>",
-        "id": "407b89f6-9a85-4fc2-97d7-15adefdb9225",
+        "id": "5133e431-c9c2-4ac8-9946-79244a9a87df",
         "input": "Communication using the same rules",
         "prediction": "decent",
         "confidence": 0.4692524,
@@ -59,7 +59,7 @@
     },
     {
         "client": "<not serializable>",
-        "id": "efe7810a-72ae-4921-b962-a8975ac535bf",
+        "id": "f8083da4-53cc-4090-9a2f-cc92d87060d8",
         "input": "Conglomeration of networks",
         "prediction": "decent",
         "confidence": 0.9954989,
@@ -72,6 +72,24 @@
             ],
             "good": [
                 0.0019525659
+            ]
+        }
+    },
+    {
+        "client": "<not serializable>",
+        "id": "beeb1c4a-e85d-4fe7-a495-75f26dc4a7df",
+        "input": "Global system of interconnected computer networks",
+        "prediction": "good",
+        "confidence": 0.6539473,
+        "labels": {
+            "bad": [
+                0.040270224
+            ],
+            "decent": [
+                0.3057825
+            ],
+            "good": [
+                0.6539473
             ]
         }
     }
