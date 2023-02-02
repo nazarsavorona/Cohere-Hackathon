@@ -5,91 +5,19 @@
 [
     {
         "client": "<not serializable>",
-        "id": "61eba0de-cde2-4fc7-abdd-36528fae48fe",
-        "input": "Global network",
-        "prediction": "decent",
-        "confidence": 0.9707429,
-        "labels": {
-            "bad": [
-                0.013908166
-            ],
-            "decent": [
-                0.9707429
-            ],
-            "good": [
-                0.01534895
-            ]
-        }
-    },
-    {
-        "client": "<not serializable>",
-        "id": "2dc4cfec-f96a-4250-ae61-3472759d47b9",
-        "input": "Something interesting",
-        "prediction": "bad",
-        "confidence": 0.85351294,
-        "labels": {
-            "bad": [
-                0.85351294
-            ],
-            "decent": [
-                0.14636852
-            ],
-            "good": [
-                0.0001185053
-            ]
-        }
-    },
-    {
-        "client": "<not serializable>",
-        "id": "67c76e64-788a-4abf-aecd-165339f95ea9",
-        "input": "Communication using the same rules",
-        "prediction": "decent",
-        "confidence": 0.4692524,
-        "labels": {
-            "bad": [
-                0.0878725
-            ],
-            "decent": [
-                0.4692524
-            ],
-            "good": [
-                0.4428751
-            ]
-        }
-    },
-    {
-        "client": "<not serializable>",
-        "id": "5400df30-c1e4-4bd3-b86f-b959c1306823",
-        "input": "Conglomeration of networks",
-        "prediction": "decent",
-        "confidence": 0.9954989,
-        "labels": {
-            "bad": [
-                0.0025485207
-            ],
-            "decent": [
-                0.9954989
-            ],
-            "good": [
-                0.0019525659
-            ]
-        }
-    },
-    {
-        "client": "<not serializable>",
-        "id": "091713d1-56ea-48a9-8656-03cc61d81183",
-        "input": "Global system of interconnected computer networks",
+        "id": "49201aef-1317-44b8-8d73-79a01c3cd008",
+        "input": "System of interconnected networks using the same protocols to communicate",
         "prediction": "good",
-        "confidence": 0.6539473,
+        "confidence": 0.77828413,
         "labels": {
-            "bad": [
-                0.040270224
+            "average": [
+                0.22075145
             ],
-            "decent": [
-                0.3057825
+            "bad": [
+                0.00096444174
             ],
             "good": [
-                0.6539473
+                0.77828413
             ]
         }
     }

@@ -11,11 +11,7 @@ def classify(question_id):
     examples, question = train_question(question_id)
 
     inputs = [
-        "Global network",
-        "Something interesting",
-        "Communication using the same rules",
-        "Conglomeration of networks",
-        "Global system of interconnected computer networks"
+        sys.argv[3],
     ]
 
     response = co.classify(
@@ -37,4 +33,4 @@ def classify(question_id):
     write_to_file.write_to_file("answers_1.txt", output)
 
 
-classify(1)
+classify(sys.argv[2])
