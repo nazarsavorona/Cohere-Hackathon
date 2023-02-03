@@ -1,4 +1,4 @@
-import psycopg2
+from backend.database.connect import get_cursor
 
 
 class Question:
@@ -7,12 +7,7 @@ class Question:
         self.data = data
 
 
-conn = psycopg2.connect(database="CohereChatBot",
-                        host="localhost",
-                        user="postgres",
-                        password="password",
-                        port="5432")
-cursor = conn.cursor()
+cursor = get_cursor()
 
 
 def get_questions():
