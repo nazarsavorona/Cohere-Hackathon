@@ -3,7 +3,6 @@ from cohere.classify import Example
 
 
 def train_question(question_id):
-    question = questions.get_question_by_id(question_id)
     answer_list = answers.get_answers_by_question_id(question_id)
 
     examples = []
@@ -11,4 +10,4 @@ def train_question(question_id):
     for i in range(len(answer_list)):
         examples.append(Example(answer_list[i].data, answer_list[i].quality))
 
-    return examples, question
+    return examples
